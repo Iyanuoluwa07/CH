@@ -14,7 +14,6 @@ with open("WeatherStation_Firmware.bin", 'rb') as file:
     print(file.read().hex().__len__())
     file.close()    
 # print("\n")
-# print("\n")
 
 # with open("Restored_Firmware.bin", 'rb') as file:
 #     print(file.readline())
